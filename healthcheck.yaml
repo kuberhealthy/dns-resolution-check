@@ -42,7 +42,7 @@ spec:
       serviceAccountName: dns-resolution-check
       containers:
         - name: dns-resolution-check
-          image: ghcr.io/kuberhealthy/dns-resolution-check:v0.1.0
+          image: docker.io/kuberhealthy/dns-resolution-check:v0.1.1
           imagePullPolicy: IfNotPresent
           env:
             - name: HOSTNAME
